@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/juliabackground.png);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+  
+  }
+  
+  .navbar{
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  nav{
+    flex: 1;
+    padding-left: 60px;
+  
+  }
+  
+  nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+  }
+  
+  nav ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  
+  .content h1, h2{
+    font-size: 40px;
+    font-family: 'Ranchers', cursive;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: #000000;
+  }
+  
+  .content p{
+    font-size: 20px;
+    margin-top: 24px;
+    color: #000000;
+  
+  }
+  /* .content{
+    margin-left: 10%;
+    margin-top: 10%;
+  }
+   */
+  .content .btn{
+    display: inline-block;
+    background: linear-gradient(45deg, #87adfe, #ff77cd);
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.15);
+  }

@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container{
+    height: 100vh;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+  
+  }
+
+  .container-form{
+    height: 100vh;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+  
+  }
+  
+  .navbar{
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  
+  nav{
+    width: 100%;
+    flex: 1;
+    padding-left: 80px;
+  
+  }
+  
+  nav ul li{
+    display: inline-flex;
+    list-style: none;
+    margin: 0px 20px;
+  }
+  
+  nav ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+
+  .row{
+   
+    align-items: center;
+ 
+  }
+
+  .col{
+    display: flex;
+    margin-top: 50px;
+    /* min-width: 250px; */
+  }
+
+  .small-row{
+
+    margin: 10px;
+    padding: 10px;
+  }
+ 
+ h1, h2{
+    font-size: 40px;
+    font-family: 'Ranchers', cursive;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: #000000;
+  }
+  
+  .content .btn{
+    display: block;
+    background: linear-gradient(45deg, #87adfe, #ff77cd);
+    border-radius: 8px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    /* box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.15); */
+  }
+
+ .small-row .btn{
+    display: block;
+    background: linear-gradient(45deg, #87adfe, #ff77cd);
+    border-radius: 8px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    /* box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.15); */
+  }
+
+  .form-content{
+    text-align: center;
+    width: 100%;
+    /* align-items: center; */
+  }
+  .contact-form{
+    width: 100%;
+    height: 80vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* align-items: center; */
+  }
+
+  .form  {
+    position: relative;
+    height: 20px;
+    /* background: lightgray */
+  }
+  .form-nome {
+     width: 100%;
+  }
+
+  .form input{
+    /* width: 100%;
+    height: 50%; */
+    padding-bottom: 40px;
+    /* color: #595f6e; */
+    border: none;
+  }
+  .form textarea{
+    padding-bottom: 120px;
+    border: none;
+  }
+  /* .sobreNome{
+    position: absolute;
+  } */
